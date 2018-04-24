@@ -1,0 +1,24 @@
+body {
+  background-color: #D2B4DE;
+}
+#one {
+  border: 1px solid blue;
+  height: 30em;
+  width: 30em;
+  padding: 5em;
+  position: relative;
+}
+#two {
+  border: 1px solid blue;
+  height: 20em;
+  width: 20em;
+  padding: 2em;
+  position: relative;
+}
+#trhee {
+  border: 1px solid blue;
+  height: 10em;
+  width: 10em;
+  padding: 2em;
+  position: relative;
+}
