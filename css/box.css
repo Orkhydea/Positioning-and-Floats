@@ -2,23 +2,42 @@ body {
   background-color: #D2B4DE;
 }
 #one {
-  border: 1px solid blue;
-  height: 30em;
+  background-color: red;
   width: 30em;
-  padding: 5em;
-  position: relative;
+  height: 30em;
+  padding: 7.5em;
+  box-sizing: border-box;
 }
 #two {
-  border: 1px solid blue;
-  height: 20em;
-  width: 20em;
-  padding: 2em;
-  position: relative;
+  background-color: purple;
+    width: 15em;
+    height: 15em;
 }
 #trhee {
-  border: 1px solid blue;
-  height: 10em;
-  width: 10em;
-  padding: 2em;
+  background-color: yellow;
+  width: 7.5em;
+  height: 7.5em;
   position: relative;
+  }
+  body > div {
+  background-color: blue;
+  width: 30em;
+  height: 30em;
+  padding: 7.5em;
+  box-sizing: border-box;
+  }
+
+body > div > div {
+    background-color: green;
+    width: 15em;
+    height: 15em;
+  }
+
+body > div > div > div#box {
+  background-color: black;
+  width: 7.5em;
+  height: 7.5em;
+  position: relative;
+  top: -7.5em;
+  left: -7.5em;
 }
