@@ -3,15 +3,15 @@ body{
 }
 #box_1 {
 	position: static;
-	width: 400px;
-	height: 400px;
+	width: 200px;
+	height: 200px;
 	background: #ee3e64;
 }
 
 #box_2 {
 	position: static;
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	background: #44accf;
 }
 
